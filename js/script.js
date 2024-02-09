@@ -43,7 +43,7 @@ function passForm() {
 
         if (isUsuarioValid && isPasswordValid) {
             // Abaixo, coloque a url do site que você quer ir
-            window.location.href = ""; // <-  url
+            window.location.href = "https://orange-fox-game.vercel.app/"; // <-  url
         }
     } catch (error) {
         console.error(error);

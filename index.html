@@ -17,18 +17,20 @@
 <body>
     <div class="main-login">
         <div class="left-login">
-            <h1>Cadastra-se para <br> o nosso site.</h1>
+            <h1>Login to <br> our website</h1>
             <img src="images/astronaut-animate.svg" alt="Logo">
         </div>
         <div class="right-login">
             <div class="card-login">
                 <h1>LOGIN</h1>
                 <div class="text-field">
-                    <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuário" id="usuario">
+                    <label for="username">Usurname</label>
+                    <input type="text" name="usuario" placeholder="Username" id="usuario">
+                    <p class="error-message" id="usuario-message"></p>
                     <div class="text-field">
-                        <label for="senha">Senha</label>
-                        <input type="password" name="senha" placeholder="Senha" id="password">
+                        <label for="password">Password</label>
+                        <input type="password" name="senha" placeholder="Password" id="password">
+                        <p class="error-message" id="password-message"></p>
                     </div>
                 </div>
                 <button class="btn-login" type="submit" onclick="login()">

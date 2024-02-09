@@ -88,10 +88,22 @@ body {
     color: #f0ffffde;
 }
 
+.error-message {
+    margin-top: 1rem;    
+    color: rgb(234, 68, 68);
+    visibility: hidden;
+}
+
+.error-message-visible {
+    margin-top: 1rem;    
+    color: rgb(234, 68, 68);
+    visibility: visible;
+}
+
 .btn-login {
     width: 100%;
     padding: 16px;
-    margin: 25px;
+    margin: 15px;
     border: none;
     border-radius: 8px;
     outline: none;
